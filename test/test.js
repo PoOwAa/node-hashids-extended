@@ -25,6 +25,13 @@ describe('extended decode tests', () => {
         done();
     });
 
+    it('should return with an array of numbers when parameter were an array', (done) => {
+        const encoded = hashidsExtended.encodeArray([1,2,3,4,5]);
+        const decoded = hashidsExtended.decodeArray(encoded);
+        expect(decoded).to.include.members([1,2,3,4,5]);
+        done();
+    });
+
     it('should encode and decode HEX', (done) => {
         const encoded = hashidsExtended.encodeHex(1);
         const decoded = hashidsExtended.decodeHex(encoded);

@@ -18,7 +18,13 @@ class HashidsExtended {
         return this.hashids.encode(arg);
     }
     encodeArray(...args) {
-        return this.hashids.encode(args);
+        // Accept array of numbers as well
+        if (args[0].constructor === Array) {
+            return this.hashids.encode(args[0]);
+        }
+        else {
+            return this.hashids.encode(args);
+        }
     }
     encodeHex(arg) {
         return this.hashids.encodeHex(arg);

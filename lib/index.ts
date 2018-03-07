@@ -24,7 +24,12 @@ export class HashidsExtended {
     }
 
     public encodeArray(...args: number[]): string {
+        // Accept array of numbers as well
+        if (args[0].constructor === Array) {
+            return this.hashids.encode(args[0]);
+        } else {
         return this.hashids.encode(args);
+        }
     }
 
     public encodeHex(arg: string): string {
