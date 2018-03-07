@@ -5,6 +5,12 @@ const {HashidsExtended} = require('../dist/index');
 const hashidsExtended = new HashidsExtended();
 
 describe('extended decode tests', () => {
+    it('should create the instance with default params', (done) => {
+        const tmphash = new HashidsExtended();
+        expect(tmphash.constructor.name).to.equal('HashidsExtended');
+        done();
+    });
+
     it('should return with a simple number', (done) => {
         const encoded = hashidsExtended.encode(1);
         const decoded = hashidsExtended.decode(encoded);
