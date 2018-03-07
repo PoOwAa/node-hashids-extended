@@ -1,6 +1,7 @@
-# node-hashids-extended
 [![Build Status](https://travis-ci.org/PoOwAa/node-hashids-extended.svg?branch=master)](https://travis-ci.org/PoOwAa/node-hashids-extended)
 [![Coverage Status](https://coveralls.io/repos/github/PoOwAa/node-hashids-extended/badge.svg)](https://coveralls.io/github/PoOwAa/node-hashids-extended)
+
+# node-hashids-extended
 Extended hashids for feel comfortable. Sometimes you would like to encode/decode only 1 number, but you have to use the first element of decoded array, or write a wrapper to handle it. No more!
 
 ## Installation
