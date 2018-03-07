@@ -7,7 +7,8 @@
   "scripts": {
     "pretest": "npm run build",
     "test": "mocha --reporter spec",
-    "build": "tsc"
+    "build": "tsc",
+    "cover": "istanbul cover node_modules/mocha/bin/_mocha test/*.js -- -R spec"
   },
   "repository": {
     "type": "git",
@@ -31,6 +32,8 @@
   "devDependencies": {
     "@types/hashids": "^1.0.30",
     "chai": "^4.1.2",
+    "coveralls": "^3.0.0",
+    "istanbul": "^0.4.5",
     "mocha": "^5.0.3",
     "typescript": "^2.7.2"
   }
