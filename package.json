@@ -27,14 +27,14 @@
   },
   "homepage": "https://github.com/PoOwAa/node-hashids-extended#readme",
   "dependencies": {
-    "hashids": "^1.1.4"
+    "hashids": "^2.2.1"
   },
   "devDependencies": {
     "@types/hashids": "^1.0.30",
     "chai": "^4.1.2",
     "coveralls": "^3.0.0",
     "istanbul": "^0.4.5",
-    "mocha": "^8.1.3",
-    "typescript": "^2.7.2"
+    "mocha": "^5.0.3",
+    "typescript": "^4.0.3"
   }
 }
