@@ -4,6 +4,7 @@ export default async (): Promise<Config.InitialOptions> => {
   return {
     preset: 'ts-jest',
     modulePathIgnorePatterns: ['<rootDir>/lib/'],
+    modulePaths: ['<rootDir>/src/'],
     testEnvironment: 'node',
     coverageDirectory: './coverage/',
     collectCoverage: true,

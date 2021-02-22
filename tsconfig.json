@@ -9,5 +9,6 @@
     "strict": true,
     "forceConsistentCasingInFileNames": true,
     "esModuleInterop": true
-  }
+  },
+  "exclude": ["jest.config.ts"]
 }
