@@ -27,10 +27,10 @@
   },
   "homepage": "https://github.com/PoOwAa/node-hashids-extended#readme",
   "dependencies": {
-    "hashids": "^2.2.1"
+    "hashids": "^1.2.2"
   },
   "devDependencies": {
-    "@types/hashids": "^1.0.30",
+    "@types/hashids": "^1.0.32",
     "chai": "^4.1.2",
     "coveralls": "^3.0.0",
     "istanbul": "^0.4.5",

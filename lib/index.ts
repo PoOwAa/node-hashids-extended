@@ -1,4 +1,4 @@
-const Hashids = require('hashids');
+import Hashids from 'hashids';
 
 export class HashidsExtended {
     private hashids: any;
