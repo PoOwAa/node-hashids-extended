@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/PoOwAa/node-hashids-extended#readme",
   "dependencies": {
-    "hashids": "^1.2.2"
+    "hashids": "^2.2.7"
   },
   "devDependencies": {
     "@types/hashids": "^1.0.32",
